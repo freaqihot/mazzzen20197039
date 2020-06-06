@@ -1,0 +1,226 @@
+*{
+    font-family: Algerian;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #000;
+    height: 70px;
+}
+.logo{
+    float: left;
+    margin: 0px 0 3px 0;
+    margin-left: 270px;
+}
+.div-img-logo img{
+    width: 100%;
+    height: 100%;
+}
+.div-img-logo{
+    width: 120px;
+    height: 70px;
+}
+.navbar{
+    float: left;
+    margin: 30px 50px 10px 0;
+    margin-left: 200px;
+    font-size: 14.5px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+
+.clear{
+    clear: both;
+}
+body{
+    background-image: url(imgs/back.jpg);
+}
+.content{
+    text-align: center;
+    color: rgb(104, 101, 101);
+    padding: 100px;
+    margin-top: 40px;
+}
+.content h1{
+    color: #fff;
+    letter-spacing: 4px;
+}
+.content h2{
+    color: #fff;
+    letter-spacing: 4px;
+}
+.content h3{
+    color: #fff;
+    letter-spacing: 4px;
+}
+.text-content{
+    background-color: #000;
+    margin: auto;
+    width: 900px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 50px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.text-content p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+}
+.text-content a{
+    color: #fff;
+}
+.text-content a:hover{
+    color: #aaa;
+}
+
+.footer{
+    margin-top: 110px;
+    background-color: #000;
+    height: 50px;
+
+}
+.div-logo-footer img{
+    width: 100%;
+    height: 100%;
+}
+.div-logo-footer{
+    width: 80px;
+    height: 50px;
+    margin: auto;
+}
+.div-img-box img{
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.div-img-box{
+    width: 140px;
+    height: 100px;
+    margin: auto;
+}
+.div-box{
+    width: calc(100% / 3 - 60px);
+    height: 210px;
+    border: 3px solid #fff;
+    color: #000;
+    border-radius: 10px;
+    background-color: #000;
+    float: left;
+    margin:0 30px;
+    position: relative;
+    padding: 10px;
+}
+.div-title-box{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+.div-boxes{
+    margin-top: 100px;
+}
+.btn-box{
+    background-color: #fff;
+    color: #000;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 9px 0;
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.btn-box:hover{
+    background-color: #fff;
+}
+.content3 h1,.content2 h1,.content4 h1,.content5 h1{
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 27px;
+    padding: 15px;
+}
+form textarea{
+    display: block;
+}
+form{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+.div-label{
+    margin: auto;
+    margin: 5px;
+}
+.div-label input,.div-label textarea{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(158, 153, 153);
+    padding: 5px;
+    font-size: 14px;
+}
+.div-label textarea{
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.btn-send{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn-send:hover{
+    background: #000f;
+}
+.content4 .div-label label,.content5 .div-label label{
+    display: block;
+    margin-bottom: 5px;
+}
+.content4 .div-label,.content5 .div-label{
+    margin: 20px;
+}
+.content4 form,.content5 form{
+    width: 300px;
+    padding: 15px;
+}
+.content4 .div-label input,.content5 .div-label input{
+    width: 100%;
+}
+.remember{
+    margin-left: 20px;
+}
+.remember label,.remember input{
+    cursor: pointer;
+}
